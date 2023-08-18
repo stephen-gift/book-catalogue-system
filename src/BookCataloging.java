@@ -16,7 +16,7 @@ public class BookCataloging {
     public void displayBooks(){
         System.out.println("Books in the Store");
         for (Book book:books){
-            System.out.println("Title "+ book.getTitle() + "Author " +book.getAuthor() );
+            System.out.println("Title: "+ book.getTitle() + " Author: " +book.getAuthor() );
         }
     }
 
@@ -25,7 +25,8 @@ public class BookCataloging {
         for (Book book:books){
             if(book.getTitle().equals(title)){
                 books.remove(book);
-                System.out.println("Book removed " + book.getTitle());
+                System.out.println("Book removed: " + book.getTitle());
+                return;
             }
         }
         System.out.println("Book not found: "+ title);
