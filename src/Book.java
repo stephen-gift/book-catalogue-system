@@ -1,11 +1,9 @@
-import java.io.StringReader;
-
-public class Books {
+public class Book {
 
     private String title;
     private String author;
 
-    Books(String title, String author){
+    Book(String title, String author){
         this.title=title;
         this.author=author;
     }
