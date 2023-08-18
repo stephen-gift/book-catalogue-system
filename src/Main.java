@@ -5,6 +5,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         BookCataloging bookCataloging = new BookCataloging();
 
+//        MyFrame myFrame = new MyFrame();
+
+
         while (true){
             System.out.println("\nChoose an option:");
             System.out.println("1. Add a book");
@@ -48,5 +51,6 @@ public class Main {
             }
 
         }
+
     }
 }
