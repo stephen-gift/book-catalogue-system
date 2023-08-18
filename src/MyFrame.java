@@ -7,7 +7,7 @@ public class MyFrame extends JFrame {
                 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Exit out of the application
                 this.setResizable(false); // prevents frame from being resized
                 this.setSize(420,420); //sets the x-dimension and y-dimension of the frame
-                this.setLayout(new FlowLayout(FlowLayout.CENTER, 10,10));
+                this.setLayout(new FlowLayout());
 
 
                 JPanel instructions=new JPanel();
