@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         BookCataloging bookCataloging = new BookCataloging();
 
-//        MyFrame myFrame = new MyFrame();
+        MyFrame myFrame = new MyFrame();
 
 
         while (true){

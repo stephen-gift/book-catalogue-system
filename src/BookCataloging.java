@@ -13,11 +13,12 @@ public class BookCataloging {
     }
 
 //   *************** DISPLAY BOOKS************
-    public void displayBooks(){
+    public Object displayBooks(){
         System.out.println("Books in the Store");
         for (Book book:books){
             System.out.println("Title: "+ book.getTitle() + " Author: " +book.getAuthor() );
         }
+        return null;
     }
 
 //   *************** DELETE BOOK************
